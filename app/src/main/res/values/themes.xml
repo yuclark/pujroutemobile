@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PUJRouteFinder" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#7B1D2E</item>
+        <item name="colorPrimaryDark">#5A1520</item>
+        <item name="colorAccent">#C9A227</item>
+    </style>
+</resources>
