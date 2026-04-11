@@ -1,10 +1,15 @@
-package com.example.pujroutefinder
+package com.example.pujroutefinder.profile
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.pujroutefinder.changepassword.ChangePasswordActivity
+import com.example.pujroutefinder.R
+import com.example.pujroutefinder.updateprofile.UpdateProfileActivity
+import com.example.pujroutefinder.dashboard.DashboardActivity
+import com.example.pujroutefinder.login.LoginActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.example.pujroutefinder.model.ProfileResponse
 import com.example.pujroutefinder.network.RetrofitClient

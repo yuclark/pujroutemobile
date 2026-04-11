@@ -11,17 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PUJRouteFinder">
 
-        <activity android:name=".LoginActivity" android:exported="true">
+        <activity android:name=".login.LoginActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".UpdateProfileActivity" />
-        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".register.RegisterActivity" />
+        <activity android:name=".dashboard.DashboardActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".updateprofile.UpdateProfileActivity" />
+        <activity android:name=".changepassword.ChangePasswordActivity" />
 
     </application>
 </manifest>

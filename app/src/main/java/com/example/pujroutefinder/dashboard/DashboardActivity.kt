@@ -1,4 +1,4 @@
-package com.example.pujroutefinder
+package com.example.pujroutefinder.dashboard
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.example.pujroutefinder.utils.SessionManager
 import android.widget.Toast
+import com.example.pujroutefinder.profile.ProfileActivity
+import com.example.pujroutefinder.R
 
 class DashboardActivity : AppCompatActivity() {
 
